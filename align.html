@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        body{
+            font-family: 'Inspiration', cursive;
+        }
+        .container{
+        width: 75%;
+        border: 5px solid purple;
+        margin: 50px auto;
+        background-color: aquamarine;
+        }
+        .item{
+         border: 3px solid grey;
+         margin: 12px 3px;
+         padding: 12px 3px;
+         background-color: rgb(209, 183, 183);
+        }
+        #fruits{
+            float: left;
+            width: 49%;
+        }
+        #vegetables{
+            float: left;
+            width: 49%;
+        }
+        #Groceries{
+            /* float: left; */
+            clear: left;
+            /* clear: right; */
+            width: 100%;
+
+        }
+        p,h3{
+            text-align: justify;
+        }
+        h1{
+            margin: 23px auto;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>This is my page</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quaerat cumque sed? Recusandae odit facere animi aspernatur ad error quibusdam similique, tempora libero architecto aperiam eligendi impedit praesentium sint provident ipsam dicta doloremque neque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. A culpa praesentium tempora ex repellat unde saepe ipsum necessitatibus, obcaecati vero eum harum quis magni, est voluptatem sit blanditiis quibusdam laudantium itaque fugit totam magnam.
+        </p>
+        </div>
+        <div id="vegetables" class="item">
+            <h3>Vegetables</h3>
+            <p id="Vegetablespara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quaerat cumque sed? Recusandae odit facere animi aspernatur ad error quibusdam similique, tempora libero architecto aperiam eligendi impedit praesentium sint provident ipsam dicta doloremque neque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, blanditiis molestiae! Necessitatibus quo excepturi delectus veniam perspiciatis officiis ab, nisi et voluptas, explicabo obcaecati aliquam fugit? Possimus iure sequi reiciendis natus rerum voluptates perferendis?
+             </p>
+        </div>
+        <div id="Groceries" class="item">
+            <h3>Groceries</h3>
+            <p id="Groceriespara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quaerat cumque sed? Recusandae odit facere animi aspernatur ad error quibusdam similique, tempora libero architecto aperiam eligendi impedit praesentium sint provident ipsam dicta doloremque neque.
+            </p>
+        </div>
+        <div id="Glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="Glassespara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quaerat cumque sed? Recusandae odit facere animi aspernatur ad error quibusdam similique, tempora libero architecto aperiam eligendi impedit praesentium sint provident ipsam dicta doloremque neque.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
